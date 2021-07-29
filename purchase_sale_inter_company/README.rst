@@ -25,6 +25,7 @@ To configure this module, you need to:
 #. Go to the tab *Inter-Company* then the group *Purchase To Sale*.
 #. Select the *Warehouse For Sale Orders*, it is the warehouse that will be used to automatically generate the sale order in the other company.
 #. If you check the option *Sale Auto Validation* in the configuration of company B, then when you validate a *Purchase Order* in company A with company B as supplier, the *Sale Order* will be automatically validated in company B with company A as customer.
+#. By default, the prices from the sale order lines will be synced to the prices on the purchase order lines when the sale order is confirmed. If you un-check *Intercompany Overwrite Purchase Price* in the intercompany settings (configurable per company), intercompany sale order line prices will be compared with their respective purchase order line prices and an error will be raised if not equal.
 
 Usage
 =====
